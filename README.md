@@ -1,2 +1,12 @@
 # Predictive-Modeling-of-Hospital-Readmissions-U.S.-Diabetes-Dataset-
-Machine learning project analyzing 30-day hospital readmissions using Logistic Regression, Random Forest, and XGBoost, with feature engineering, clustering-based imputation, and actionable healthcare insights aligned with the HRRP policy.
+(U.S. Diabetes Dataset – 30-Day Readmission Prediction)
+
+## Project Overview
+Hospital readmissions within 30 days significantly impact healthcare costs and hospital reimbursement policies in the United States. Under the Hospital Readmissions Reduction Program (HRRP), hospitals face financial penalties for excessive readmissions.
+
+This project builds predictive models to identify high-risk diabetic patients likely to be readmitted within 30 days, using clinical, demographic, and treatment-related features.
+
+The goal is to:
+* Predict 30-day readmission
+* Identify key risk factors
+* Provide actionable recommendations for hospitals
