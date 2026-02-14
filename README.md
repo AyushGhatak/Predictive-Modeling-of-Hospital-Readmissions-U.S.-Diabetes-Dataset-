@@ -10,3 +10,43 @@ The goal is to:
 * Predict 30-day readmission
 * Identify key risk factors
 * Provide actionable recommendations for hospitals
+
+## Dataset
+The dataset used is the U.S. Diabetes 130-Hospitals Dataset, containing over 100,000 hospital encounters of diabetic patients.
+
+Feature Categories
+
+Clinical Features
+* num_lab_procedures
+* num_procedures
+* num_medications
+* number_outpatient
+* number_emergency
+* number_inpatient
+* number_diagnoses
+
+Treatment-Related Features
+* admission_type_id
+* discharge_disposition_id
+* admission_source_id
+* time_in_hospital
+* change
+* diabetesMed
+24 medication-related features (metformin to metformin.pioglitazone)
+
+Demographic Features
+* race
+* gender
+* age
+* weight
+
+## Objective
+To determine:
+
+Which features best predict whether a diabetic patient will be readmitted within 30 days?
+
+This is formulated as a binary classification problem:
+
+0 → No readmission within 30 days
+1 → Readmission within 30 days
+
