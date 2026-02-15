@@ -54,7 +54,8 @@ This is formulated as a binary classification problem: <br>
 
 Exploratory Data Analysis was conducted using:
 * Python (Pandas, Matplotlib, Seaborn) for statistical exploration.
-* Power BI for interactive dashboard development and demographic segmentation. <br>
+* Power BI for interactive dashboard development and demographic segmentation.
+  
 The objective was to uncover patterns influencing 30-day hospital readmission among diabetic patients and identify high-risk segments before model building.
 
 **-> Correlation Heatmap**
@@ -71,7 +72,8 @@ Key Findings:
 
 Interpretation: 
 * No single feature linearly explains readmission.
-* Readmission is likely driven by complex, non-linear interactions. <br>
+* Readmission is likely driven by complex, non-linear interactions.
+  
 This justifies the use of ensemble models like Random Forest and XGBoost rather than relying solely on logistic regression.
 
 **-> Readmission Count by Age**
@@ -87,7 +89,8 @@ Interpretation:
 * Age acts as a risk amplifier, likely interacting with:
     * Number of medications
     * Inpatient history
-    * Comorbidities <br>
+    * Comorbidities
+      
 This supports including age as an important predictive variable.
 
 **-> Readmission by Gender & Race**
@@ -225,6 +228,7 @@ Based on modeling and clustering:
 * Scikit-learn
 * XGBoost
 * Matplotlib / Seaborn
+* Power BI
 
 ## Repository Structure
 ├── Dataset/ <br>
